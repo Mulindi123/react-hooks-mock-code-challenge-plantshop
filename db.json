@@ -41,6 +41,42 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Banana",
+      "image": "https://media.istockphoto.com/id/1372896722/photo/potted-banana-plant-isolated-on-white-background.jpg?s=1024x1024&w=is&k=20&c=gb9JBStjk_1cwbxWXODqdsSPbXQaQPq7fPL_XuPTRLA=",
+      "price": 40,
+      "id": 8
+    },
+    {
+      "name": "fern",
+      "image": "https://media.istockphoto.com/id/1308019682/photo/birds-nest-fern-houseplant-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=-G9vWNC3uxUW1ygrM7aff_TgEKr29hKgCAPD2wltO40=",
+      "price": 30,
+      "id": 9
+    },
+    {
+      "name": "Faux fiddle leaf",
+      "image": "https://media.istockphoto.com/id/1286072566/photo/potted-plant-in-white-ceramic-container-sitting-on-dark-wood-surface.jpg?s=1024x1024&w=is&k=20&c=oyfEjv0-mhMaBRTwuQAqqsqc18eGY5SQQQ2o6n8xr6I=",
+      "price": 50,
+      "id": 10
+    },
+    {
+      "name": "Faux fiddle leaf",
+      "image": "https://media.istockphoto.com/id/1286072566/photo/potted-plant-in-white-ceramic-container-sitting-on-dark-wood-surface.jpg?s=1024x1024&w=is&k=20&c=oyfEjv0-mhMaBRTwuQAqqsqc18eGY5SQQQ2o6n8xr6I=",
+      "price": 50,
+      "id": 11
+    },
+    {
+      "name": "Ficus lirata",
+      "image": "https://media.istockphoto.com/id/1299094421/photo/ficus-lirata-in-wickr-pot-on-wooden-table.jpg?s=1024x1024&w=is&k=20&c=kRoAB31tRvAzeEuuKNc27k2oB2sJe7LWkYhL4wyQAxQ=",
+      "price": 30.4,
+      "id": 12
+    },
+    {
+      "name": "Ficus lirata",
+      "image": "https://media.istockphoto.com/id/1299094421/photo/ficus-lirata-in-wickr-pot-on-wooden-table.jpg?s=1024x1024&w=is&k=20&c=kRoAB31tRvAzeEuuKNc27k2oB2sJe7LWkYhL4wyQAxQ=",
+      "price": "30.40",
+      "id": 13
     }
   ]
 }

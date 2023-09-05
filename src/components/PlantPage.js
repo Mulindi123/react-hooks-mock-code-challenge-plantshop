@@ -1,14 +1,22 @@
-import React from "react";
+import React, {useState} from "react";
 import NewPlantForm from "./NewPlantForm";
 import PlantList from "./PlantList";
 import Search from "./Search";
 
 function PlantPage() {
+  const [plants, setPlants] =useState([])
+
+  function addPlant(Plant){
+    const newPlants=[...plants,Plant]
+    setPlants(newPlants)
+    // console.log(plants)
+  }
+
   return (
     <main>
-      <NewPlantForm />
+      <NewPlantForm onAddPlant={addPlant} />
       <Search />
-      <PlantList />
+      <PlantList plants={plants} setPlants={setPlants} />
     </main>
   );
 }
