@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import PlantCard from "./PlantCard";
 
-function PlantList({plants, setPlants}) {
-  
+function PlantList({plants, setPlants, searchTerm}) {
+ 
 
   useEffect(()=>{
     fetch("http://localhost:6001/plants")
@@ -11,11 +11,15 @@ function PlantList({plants, setPlants}) {
     .catch(error=>console.log(error))
   },[])
 
-  
+
+  const filtered = plants.filter((plant)=>
+  plant.name.toLowerCase().includes(searchTerm.toLowerCase())
+ )
+
 
   return (
     <ul className="cards">
-      {plants.map((plant)=>{
+      {filtered.map((plant)=>{
         return(
           <PlantCard plant={plant} key={plant.id} />
         )

@@ -5,6 +5,8 @@ import Search from "./Search";
 
 function PlantPage() {
   const [plants, setPlants] =useState([])
+  const [searchTerm, setSearchTerm] =useState("")
+
 
   function addPlant(Plant){
     const newPlants=[...plants,Plant]
@@ -15,8 +17,8 @@ function PlantPage() {
   return (
     <main>
       <NewPlantForm onAddPlant={addPlant} />
-      <Search />
-      <PlantList plants={plants} setPlants={setPlants} />
+      <Search setSearchTerm={setSearchTerm} />
+      <PlantList plants={plants} setPlants={setPlants} searchTerm={searchTerm} />
     </main>
   );
 }
