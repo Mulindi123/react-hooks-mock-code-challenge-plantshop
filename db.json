@@ -69,13 +69,13 @@
     {
       "name": "Ficus lirata",
       "image": "https://media.istockphoto.com/id/1299094421/photo/ficus-lirata-in-wickr-pot-on-wooden-table.jpg?s=1024x1024&w=is&k=20&c=kRoAB31tRvAzeEuuKNc27k2oB2sJe7LWkYhL4wyQAxQ=",
-      "price": 30.4,
+      "price": "30.45",
       "id": 12
     },
     {
       "name": "Ficus lirata",
       "image": "https://media.istockphoto.com/id/1299094421/photo/ficus-lirata-in-wickr-pot-on-wooden-table.jpg?s=1024x1024&w=is&k=20&c=kRoAB31tRvAzeEuuKNc27k2oB2sJe7LWkYhL4wyQAxQ=",
-      "price": "30.40",
+      "price": "31.56",
       "id": 13
     }
   ]

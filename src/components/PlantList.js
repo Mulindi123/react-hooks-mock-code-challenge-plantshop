@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import PlantCard from "./PlantCard";
+import UpdatePlant from "./UpdatePlant";
 
 function PlantList({plants, setPlants, searchTerm}) {
  
@@ -21,7 +22,10 @@ function PlantList({plants, setPlants, searchTerm}) {
     <ul className="cards">
       {filtered.map((plant)=>{
         return(
-          <PlantCard plant={plant} key={plant.id} />
+         <div key={plant.id}>
+           <PlantCard plant={plant}  />
+           <UpdatePlant plantId={plant.id}/>
+         </div>
         )
       })}
     </ul>
